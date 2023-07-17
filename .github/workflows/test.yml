@@ -1,0 +1,19 @@
+name: Hello World Pipeline
+
+on: [push]
+
+jobs:
+  hello-world:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Hello World
+        run: echo "Hello, World!"
+
+  no-click-ops:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: No Click Ops
+        run: echo "No click ops"
+
